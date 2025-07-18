@@ -48,16 +48,20 @@ export default function Header() {
       {/* Header principal - OPTIMIZADO PARA DESKTOP */}
       <div className="bg-white/95 backdrop-blur-xl border-b border-blue-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="flex justify-between items-center py-0.5 lg:py-1">
+          <div className="flex justify-between items-center py-2 lg:py-3">
             {/* Logo optimizado para desktop */}
             <Link to="/" className="flex items-center space-x-3 lg:space-x-4 hover-lift-intense">
               <div className="flex items-center justify-center">
                 <img 
-                  src="/wasabilogo.jpg" 
+                  src="/wasabi-azul-2.png" 
                   alt="Wasabi Trader Logo" 
-                  className="h-12 sm:h-16 lg:h-20 xl:h-24 w-auto object-contain"
+                  className="h-8 sm:h-10 lg:h-12 w-auto object-contain"
                   style={{ maxWidth: '100%', height: 'auto' }}
                 />
+              </div>
+              <div className="hidden sm:block">
+                <h1 className="text-lg lg:text-xl font-black text-gray-900">Wasabi Trader</h1>
+                <p className="text-xs lg:text-sm text-blue-600 font-bold">Comparador Inteligente</p>
               </div>
             </Link>
             

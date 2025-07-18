@@ -17,9 +17,9 @@ export default function Footer() {
             <div className="flex items-center space-x-3 lg:space-x-4 mb-6">
               <div className="flex items-center justify-center">
                 <img 
-                  src="/wasabilogo.jpg" 
+                  src="/wasabi-azul-2.png" 
                   alt="Wasabi Trader Logo" 
-                  className="h-10 lg:h-12 w-auto object-contain"
+                  className="h-8 lg:h-10 w-auto object-contain"
                   style={{ maxWidth: '100%', height: 'auto' }}
                 />
               </div>
